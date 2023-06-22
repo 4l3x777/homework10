@@ -1,3 +1,13 @@
+# vscode
+.vscode
+bulk_server_debug.exe
+bulk_server.exe
+libasync*
+TODO
+
+# cmake
+/build*/
+
 # Prerequisites
 *.d
 
