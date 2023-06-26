@@ -17,15 +17,15 @@
 
 Инициирование сессии клиента
 
-**# echo connect <bulk_size> | nc localhost \<port\>**
+**# echo connect \<bulk_size\> | nc localhost \<port\>**
 
 Отправка комманд от клиента к серверу
 
-**# echo receive <context> [commands] | nc localhost \<port\>**
+**# echo receive \<context\> [commands] | nc localhost \<port\>**
 
 Отключение сессии клиента
 
-**# echo disconnect <context> | nc localhost \<port\>**
+**# echo disconnect \<context\> | nc localhost \<port\>**
 
 , где
 * **port** – номер tcp порта для входящих соединений. Соединения должны обслуживаться с 
